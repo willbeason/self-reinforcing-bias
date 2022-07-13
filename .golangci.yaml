@@ -1,0 +1,64 @@
+linters:
+  disable-all: true
+  enable:
+    # Enabled by Default
+    - deadcode
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+#    - structcheck # Disabled for go 1.18
+    - typecheck
+    - unused
+    - varcheck
+    # Disabled by Default
+    - asciicheck
+    - bidichk
+    - containedctx
+    - cyclop
+    - decorder
+    - dogsled
+    - dupl
+    - durationcheck
+    - errchkjson
+    - errname
+    - errorlint
+    - exhaustive
+    - exportloopref
+    - forcetypeassert
+    - funlen
+#    - gci
+    - gochecknoglobals
+    - gochecknoinits
+    - gocognit
+    - gocyclo
+    - godot
+    - godox
+    - goerr113
+#    - gofmt
+    - gofumpt
+#    - goimports
+    - gomnd
+    - gomoddirectives
+    - goprintffuncname
+    - gosec
+    - grouper
+    - ireturn
+    - lll
+    - maintidx
+    - misspell
+    - nestif
+    - nilnil
+    - nolintlint
+    - paralleltest
+    - prealloc
+    - predeclared
+    - revive
+    - tenv
+    - testpackage
+    - thelper
+    - unconvert
+    - varnamelen
+    - whitespace
+    - wrapcheck
+    - wsl

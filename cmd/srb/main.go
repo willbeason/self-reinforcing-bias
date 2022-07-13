@@ -1,14 +1,17 @@
 package main
 
 import (
-	"github.com/spf13/cobra"
 	"os"
+
+	"github.com/spf13/cobra"
 )
 
-var cmd = &cobra.Command{}
+func Cmd() *cobra.Command {
+	return &cobra.Command{}
+}
 
 func main() {
-	err := cmd.Execute()
+	err := Cmd().Execute()
 	if err != nil {
 		os.Exit(1)
 	}
